@@ -3,15 +3,18 @@
 }*/
 body{
     background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: azure;
+    font-weight: lighter;
+    padding-bottom: 50px;
 }
 a{
     color: coral;
     font-size: larger;
+    text-decoration: none;
 }
 ul {
   display: flex;         /* Makes list items horizontal */
@@ -26,11 +29,15 @@ li {
   flex-direction: column; /* Stacks image on top of text */
   align-items: center;    /* Centers image and text horizontally */
   gap: 8px;               /* Space between image and text */
+  background-color: #1f1f1f;
+  padding: 18px;
+  border-radius: 16px
 }
 li img {
   width: auto;            /* Set explicit image width */
-  height: 100px;           /* Set explicit image height */
+  height: 250px;           /* Set explicit image height */
   object-fit: contain;    /* Prevents image distortion */
+  border-radius: 16px;
 }
 div{
     border: auto;
