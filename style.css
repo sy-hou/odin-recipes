@@ -1,0 +1,37 @@
+/**{
+    outline: 2px solid red;
+}*/
+body{
+    background-color: #121212;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+}
+a{
+    color: coral;
+    font-size: larger;
+}
+ul {
+  display: flex;         /* Makes list items horizontal */
+  justify-content: center; /* Centers the items horizontally */
+  list-style: none;      /* Removes default bullet points */
+  padding: 0;            /* Removes default browser padding */
+  margin: 0;             /* Removes default browser margin */
+  gap: 100px;             /* Adds clean spacing between items */
+}
+li {
+  display: flex;
+  flex-direction: column; /* Stacks image on top of text */
+  align-items: center;    /* Centers image and text horizontally */
+  gap: 8px;               /* Space between image and text */
+}
+li img {
+  width: auto;            /* Set explicit image width */
+  height: 100px;           /* Set explicit image height */
+  object-fit: contain;    /* Prevents image distortion */
+}
+div{
+    border: auto;
+}
